@@ -13,6 +13,8 @@ data/
 models/
 checkpoints/
 *.csv
+!Reddit_Data.csv
+!train-balanced-sarcasm.csv
 *.zip
 *.pt
 *.pth

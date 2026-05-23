@@ -55,6 +55,11 @@ Reddit_Data.csv
 - `performance_summary.png` visualizes model comparison, training curves, and confusion matrices.
 - The final notebook cell launches the Tkinter classifier app.
 
+## Dataset Sources
+
+- `train-balanced-sarcasm.csv`: Kaggle [Sarcasm on Reddit](https://www.kaggle.com/datasets/danofer/sarcasm/data), based on the Self-Annotated Reddit Corpus for sarcasm research.
+- `Reddit_Data.csv`: Kaggle [Twitter and Reddit Sentimental analysis Dataset](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset).
+
 ## Git Notes
 
-Large local artifacts are intentionally excluded by `.gitignore`: datasets, checkpoints, virtual environments, and archives should not be committed to GitHub.
+Large local artifacts are intentionally excluded by `.gitignore`: checkpoints, virtual environments, and archives should not be committed to GitHub. The large sarcasm CSV is tracked with Git LFS.
